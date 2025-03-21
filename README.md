@@ -9,7 +9,7 @@
   │   ├── bert_ordinary_regression_test.py.py  
   │   ├── bert_ordinary_regression_train.py               //序列回归任务，效果不如分类  
   │   ├── bert_regression_train.py                        //回归任务，效果较差  
-  │   ├── catch/                                          //数据爬取及最终采用的数据集                                      
+  │   ├── catch/                                          //数据爬取                                     
   │   │   ├── catch_data.py  
   │   │   ├── catch_data_pro.py  
   │   │   ├── data wash/                                  //根据长度、数量进行清洗          
@@ -17,7 +17,7 @@
   │   │   │   ├── wash_data_len.py  
   │   │   │   ├── wash_data_num.py  
   │   │   ├── show.py  
-  │   ├── loss_fn_test.py  
+  │   ├── loss_fn_test.py                                 //损失函数调试
   ├── attention/                                          //几种注意力实现  
   │   ├── Multi_Head_Latent_Attention.py  
   │   ├── base_multi_attention.py  
