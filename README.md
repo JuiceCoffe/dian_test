@@ -4,7 +4,7 @@
 # 项目目录
   dian_upload/  
   ├── Bert/  
-  │   ├── bert_classify_test.py                           //用于直接推理  
+  │   ├── bert_classify_test.py                               //用于直接推理  
   │   ├── bert_classify_train.py                          //分类任务，效果较好，最终采用  
   │   ├── bert_ordinary_regression_test.py.py  
   │   ├── bert_ordinary_regression_train.py               //序列回归任务，效果不如分类  
