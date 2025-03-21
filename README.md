@@ -1,5 +1,5 @@
 # 进度说明
-基本完成所有任务，各个任务提交在Bert、attention、random forest 3个文件夹里
+各个任务提交在Bert、attention、random forest 3个文件夹里
 
 # 项目目录
   dian_upload/  
