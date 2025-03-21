@@ -12,30 +12,11 @@ dian_upload/
 │   ├── catch/                                          //数据爬取及最终采用的数据集                                    
 │   │   ├── catch_data.py
 │   │   ├── catch_data_pro.py
-│   │   ├── combined_60049_cleaned_low.jsonl
-│   │   ├── combined_60049_minlen=30.jsonl
-│   │   ├── combined_60049_pernum=1500.jsonl
 │   │   ├── data wash/                                  //根据长度、数量进行清洗        
 │   │   │   ├── wash_data.py
 │   │   │   ├── wash_data_len.py
 │   │   │   ├── wash_data_num.py
 │   │   ├── show.py
-│   │   ├── test.jsonl
-│   ├── dataset/                                        //爬取的原始数据
-│   │   ├── merged/
-│   │   │   ├── combined-60049.jsonl
-│   │   │   ├── merge.py
-│   │   ├── used/
-│   │   │   ├── comments_and_ratings1_1.jsonl
-│   │   │   ├── comments_and_ratings240_249.jsonl
-│   │   │   ├── comments_and_ratings270_279.jsonl
-│   │   │   ├── comments_and_ratings320_329.jsonl
-│   │   │   ├── comments_and_ratings340_349.jsonl
-│   │   │   ├── comments_and_ratings350_359.jsonl
-│   │   │   ├── comments_and_ratings360_369.jsonl
-│   │   │   ├── comments_and_ratings370_380.jsonl
-│   │   │   ├── comments_and_ratings50_53.jsonl
-│   │   │   ├── comments_and_ratings80_89.jsonl
 │   ├── loss_fn_test.py
 ├── attention/                                          //几种注意力实现
 │   ├── Multi_Head_Latent_Attention.py
